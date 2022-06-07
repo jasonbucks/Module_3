@@ -1,10 +1,6 @@
 # Module_3 Challenge - Crypto Arbitrage
 
-"This is a python command-line interface application that allows users to see qualifying loans from lenders quickly and easily. The application works by taking in a `daily_rate_sheet` of loan criteria from various loan providers, asking the user a number of questions to evaluate their loan eligibility, and then returning to them a list of qualifying loans." 
-
-The preceding quote was taken from the solution for an earlier exercise.  The `daily_rate_sheet` will be in CSV format.  The main criteria for determining loan eligibility will be the loan applicant's credit score and debt-to-income ratio, plus the size of the loan as well as the loan-to-home_value ratio.
-
-This application has been updated from the original to allow the user the option to create an output file and, if so, name the output file themselves.
+This project examines some historical data on the prices of Bitcoin for the period January 1 through March 31 of 2018.  Applying the three phases of financial data analysis - collect, prepare and analyze - the goal is determine if there were any arbitrage opportunities for Bitcoin on two exchanges, Bitstamp and Coinbase, and then to quantify how large these arbitrage profits could be.
 
 ---
 
@@ -41,19 +37,8 @@ python app.py
 
 Upon launching the loan qualifier application you will be greeted with the following prompts:
 
-![Loan Qualifier Prompts](images/app_user_input_screenshot.png)
+![Sample Bitcoin Price Plot](images/3-4-bitcoin1-plot.png)
 
-If there are no qualifying loans available to the user, the screen will look similar to this:
-
-![Loan Qualifier Prompts](images/app_user_input_screenshot_3.png)
-
-If there are qualifying loans, the screen will look either like this, if an output file is chosen by the user:
-
-![Loan Qualifier Prompts](images/app_user_input_screenshot_2.png)
-
-...or like this, if no output file was selected:
-
-![Loan Qualifier Prompts](images/app_user_input_screenshot_4.png)
 
 ---
 
