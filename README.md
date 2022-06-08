@@ -6,13 +6,12 @@ This project examines some historical data on the prices of Bitcoin for the peri
 
 ## Technologies
 
-This project leverages python 3.9.7 with the following packages:
+This project leverages python 3.7.11 with the following packages:
 
-* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+* [pandas](https://pandas.pydata.org) - Use the Pandas library, along with JupyterLab, to collect, prepare and analyze data.
 
-* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
+* [matplotlib](https://matplotlib.org) - For plotting the data on line graphs and box plots.
 
-The preceding lines were taken from the solution for an earlier exercise, edited only to reflect a slightly newer version of Python being employed.
 
 ---
 
